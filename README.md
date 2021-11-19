@@ -14,13 +14,13 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Nirali's Cloud Journey
 
-[✍️ Introduce yourself]
+I am a software developer working on Python, tableau and Machine learning with experience in ETL tool informatica. 
 
-[✍️ Tell us why you started this challenge]
+I am starting my 100 days journey to learn cloud tech as I aspire to complete AWS Cloud practioner certification followed by AWS Machine learning specialist certification.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+I want to successfully complete AWS cloud practioner and AWS Machine learning specialist certifications by the end of the 100 days cloud journey.
 
 - [✍️ Link to your Twitter](https://twitter.com/username)
 - [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
