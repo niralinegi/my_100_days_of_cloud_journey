@@ -1,7 +1,3 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
 # AWS Cloud History
 
 2002: Internally launched
@@ -62,7 +58,7 @@
 	R. On-demand availability of computer system resources, especially data storage (cloud storage)and computing power, without direct active management by the user.
 
 	Q. What defines the distribution of responsibilities for security in the AWS Cloud?
-  R. The Shared Responsibility Model defines who is responsible for what in the AWS Cloud.
+  	R. The Shared Responsibility Model defines who is responsible for what in the AWS Cloud.
 
 
 
