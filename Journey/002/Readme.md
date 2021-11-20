@@ -2,51 +2,67 @@
 ![placeholder image](https://via.placeholder.com/1200x600)
 
 # New post title here
+# AWS Cloud History
 
-## Introduction
+2002: Internally launched
+2003: Amazon infrastructure 
+2004: Launched publicly with SQS
+2006: Relaunched publicly with SQS, S3 & EC2
+2007: Launched in Europe
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+# AWS Use cases:
+	1. Enables sophisticated, scalable applications
+	2. Applicable to diverse set of applications
+	3. Enterprise IT Backup & Storage, Big data analytics
+	4. Website hosting. Mobile and social apps
+	5. Gaming
 
-## Prerequisite
+# AWS Regions:
+	1. AWS has regions all around the world
+	2. Names can be us-east-1, eu-west-3 etc
+	3. A region is a cluster of data centers
+	4. Most AWS services are region-scoped
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+	Q. How do you choose an AWS regions?
+		a. Compliance: with data governance and legal requirements like data never leaves a region without explicit permissions
+		b. Proximity: Proximity to customers to reduce the latency
+		c. Available services: New services and new features aren't available in every regions
+		d. Pricing
 
-## Use Case
+# AWS Availability Zones:
+	1. Each region has usually 3, min 2 and max 6 eg. ap-southeast-2a, ap-southeast-2b, ap-southeast-2c
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# AWS Points of Presence (Edge locations):
+	- Amazon has 216 points of presence (205 Edge locations and 11 regional caches) in 84 cities across 42 countries
 
-## Cloud Research
+# Tour of the AWS Console:
+	1. AWS has Global services:
+		a. Identity and Access Management (IAM)
+		b. Route 53 (DNS Service)
+		c. CloudFront (Content delivery network)
+		d. WAF (Web Application Firewall)
+	2. Most AWS services are Region-scoped:
+		a. Amazon EC2 (Infrastructure as a Service)
+		b. Elastic Beanstalk (Platform as a Service)
+		c. Lambda (Function as a Service)
+		d. Rekognition (Software as a Service)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+# Quiz questions:
 
-## Try yourself
+	Q. Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?
+	R. Availability Zones
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+	Q. Which are the 3 pricing fundamentals of the AWS Cloud?
+	R. Compute, Storage and Data Transfer Out of the AWS Cloud
 
-### Step 1 — Summary of Step
+	Q. AWS Regions are composed of?
+	R. Two or more Availability Zones
 
-![Screenshot](https://via.placeholder.com/500x300)
+	Q. Definition of Cloud Computing:
+	R. On-demand availability of computer system resources, especially data storage (cloud storage)and computing power, without direct active management by the user.
 
-### Step 1 — Summary of Step
+	Q. What defines the distribution of responsibilities for security in the AWS Cloud?
+  R. The Shared Responsibility Model defines who is responsible for what in the AWS Cloud.
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
