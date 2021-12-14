@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## AWS CloudShell
+AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources. ... With CloudShell, you can quickly run scripts with the AWS Command Line Interface (AWS CLI), experiment with AWS service APIs using the AWS SDKs, or use a range of other tools to be productive.
 
-# New post title here
+## IAM Roles: 
+Are roles created for certain AWS services to perform actions on your behalf.
 
-## Introduction
+## IAM Roles Handson:
+In IAM account. Roles -> Create a Role -> With IAMReadOnlyAccess -> Gave name	DemoRoleForEC2
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## IAM Security Tools:
+	1. IAM Credentials Report (account-level):
+		a. A report that lists all your account's users and the status of their various credentials
+	2. IAM Access Advisor (user-level):
+		a. Access advisor shows the service permissions granted to a user and when those services were last accessed. 
+		b. You can use this information to revise your policies.
 
-## Prerequisite
+IAM Security Tools Hands-on:
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## Shared Responsibility Model for IAM:
+AWS	You
+Infrastructure (global network security)	Users, Groups, Roles, Policies management and monitoring
+Configuration and vulnerability analysis	Enable MFA on all accounts
+Compliance validation	Rotate your keys often
+	Use IAM tools to apply appropriate permissions. Analyze access patterns and review permissions
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+## IAM Summary:
+	1. Users: mapped to a physical user; has a password for AWS Console
+	2. Groups: contains users only
+	3. Policies: JSON Document that outlines permissions for users or groups
+	4. Roles: for EC2 instances or AWS services
+	5. Security: MFA + Password Policy
+	6. AWS CLI: manage your AWS services using the command-line
+	7. AWS SDK: manage your AWS services using a programming language
+	8. Access Keys: access AWS using the CLI or SDK
+	9. Audit: IAM Credentials Reports and IAM Access Advisor
+![image](https://user-images.githubusercontent.com/58590628/145946572-b09abe13-5db7-4be1-97ba-c4ff8ccb1c8d.png)
